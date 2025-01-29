@@ -20,10 +20,6 @@
 	{{#languages}}
 	<link rel="alternate" hreflang="{{.}}" href="{{../boardUriComponent}}?lang={{.}}" />
 	{{/languages}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="../socket.io/socket.io.js"></script>
-	
-	
 	<script src="../polyfill.min.js"></script>
 </head>
 
@@ -39,18 +35,13 @@
 
 	<div id="loadingMessage">{{translations.loading}}</div>
 
-	<div id="menu" >
+	<div id="menu" tabindex="0" {{#hideMenu}}style="display:none;"{{/hideMenu}}>
 		<div id="menuItems">
 			<ul id="tools" class="tools">
 				<li class="tool" tabindex="-1">
 					<img class="tool-icon" width="35" height="35" src="" alt="icon" />
 					<span class="tool-name"></span>
 					<img class="tool-icon secondaryIcon" width="35" height="35" src="data:," alt="icon" />
-				</li>
-				<li>
-					<button class="tool-button active" data-tool="pencil">
-						<i class="fas fa-pencil-alt" width="35" height="35" src="data:," alt="icon"></i>
-					</button>
 				</li>
 			</ul>
 
