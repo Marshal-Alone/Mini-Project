@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+  <head>
+    <meta charset="utf-8" />
+    <title>Collaboard - Collaborative Whiteboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="index.css" />
+    <meta name="description" content="{{translations.tagline}}" />
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <link rel="mask-icon" href="favicon.svg" color="black" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#6366f1" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="nav-container">
+        <div class="logo">
+          <span class="logo-icon">🖍️</span>
+          <h1>Collaboard</h1>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2 class="hero-title">Create & Collaborate in Real-Time</h2>
+            <p class="hero-subtitle">Visualize ideas together with instant synchronization</p>
+            
+            <form id="named-board-form" class="board-form" action="boards" method="GET">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="board"
+                  name="board"
+                  required
+                  placeholder="Enter your room name..."
+                  class="board-input"
+                />
+                <button type="submit" class="cta-button">
+                  Start Boarding 🚀
+                </button>
+              </div>
+              <p class="form-note">Tip: Use a unique name or generate a random one</p>
+            </form>
+          </div>
+          <div class="hero-illustration">
+            <img src="whiteboard-illustration.svg" alt="Collaborative whiteboard interface" />
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section">
+        <div class="features-container">
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>Real-Time Collaboration</h3>
+            <p>Work simultaneously with team members from anywhere in the world</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Rich Drawing Tools</h3>
+            <p>Multiple brush types, colors, and shapes to express your ideas</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Secure & Private</h3>
+            <p>End-to-end encrypted sessions with optional password protection</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../js/index.js" async defer></script>
+  </body>
+</html>

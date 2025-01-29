@@ -1,0 +1,109 @@
+|-- .gitignore
+|-- .prettierignore
+|-- .prettierrc
+|-- AUTHORS
+|-- CHECKS
+|-- client-data
+    |-- apple-touch-icon-precomposed.png
+    |-- apple-touch-icon.png
+    |-- background.png
+    |-- board.css
+    |-- board.html
+    |-- crossdomain.xml
+    |-- error.html
+    |-- favicon.ico
+    |-- favicon.svg
+    |-- frontpage-illustration.svg
+    |-- github.svg
+    |-- icon-size.svg
+    |-- index.css
+    |-- index.html
+    |-- instagram.svg
+    |-- js
+        |-- board.js
+        |-- canvascolor.js
+        |-- index.js
+        |-- intersect.js
+        |-- minitpl.js
+        |-- path-data-polyfill.js
+    |-- label.svg
+    |-- manifest.json
+    |-- tools
+        |-- clear
+            |-- clear.js
+            |-- clear.svg
+        |-- cursor
+            |-- cursor.js
+        |-- download
+            |-- download.js
+            |-- download.svg
+        |-- ellipse
+            |-- ellipse.css
+            |-- ellipse.js
+            |-- icon-circle.svg
+            |-- icon-ellipse.svg
+        |-- eraser
+            |-- eraser.js
+            |-- icon.svg
+        |-- grid
+            |-- grid.js
+            |-- icon.svg
+        |-- hand
+            |-- delete.svg
+            |-- duplicate.svg
+            |-- hand.js
+            |-- hand.svg
+            |-- handle.svg
+            |-- mover.svg
+            |-- selector.svg
+        |-- line
+            |-- icon-straight.svg
+            |-- icon.svg
+            |-- line.css
+            |-- line.js
+        |-- pencil
+            |-- cursor.svg
+            |-- icon.svg
+            |-- pencil.css
+            |-- pencil.js
+            |-- wbo_pencil_point.js
+            |-- whiteout_fluid.svg
+            |-- whiteout_tape.svg
+        |-- rect
+            |-- icon-square.svg
+            |-- icon.svg
+            |-- rect.css
+            |-- rect.js
+        |-- text
+            |-- icon.svg
+            |-- text.css
+            |-- text.js
+        |-- zoom
+            |-- icon.svg
+            |-- zoom.js
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- server
+    |-- boardData.js
+    |-- check_output_directory.js
+    |-- client_configuration.js
+    |-- configuration.js
+    |-- createSVG.js
+    |-- fs_promises.js
+    |-- jwtauth.js
+    |-- jwtBoardnameAuth.js
+    |-- log.js
+    |-- server.js
+    |-- sockets.js
+    |-- templating.js
+    |-- translations.json
+|-- server-data
+    |-- .gitignore
+    |-- board-ababababa.json
+    |-- board-AMALA.json
+    |-- board-CJLpGyq0NSGS5UeBzKdGZhhPr6TYqsvWv-qyrm3V1ks-.json
+    |-- board-jjdwhjwjedk3h2deh32uhdew.json
+    |-- board-nGEjJ-V43lLJJ44fmnXjXWgQDzEsGA6txi-t9z1KHNY-.json
+|-- tests
+    |-- integration.js

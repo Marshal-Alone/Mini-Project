@@ -1,0 +1,133 @@
+Overall Structure 
+
+> .vscode
+
+> client data
+      >js
+      >tools
+      apple-touch-icon-precomposed.png
+      apple-touch-icon.png
+      background.png
+      board.css
+      board.html
+      crossdomain.xml
+      error.html
+      favicon. ico
+      favicon.svg
+      frontpage-illustrationsvg
+      github.svg
+      Icon-sue.svg
+      index.css
+      index.html
+      instagramsvg
+      label.svg
+      manifest.json
+
+> server
+    boardData.js
+    check_output_directory.js
+    client_configuration.js
+    configuration.js
+    createSVG.js
+    fs_promises.js
+    jwtauth.js
+    jwtBoardnarneAuth.js
+    server JS
+    sockets.js
+    templating.js
+    translations.json
+
+
+> server-data
+    .gitignore
+    board-ababababa.json
+    board -AMALAjson
+    board-CJ LpGyqON SGS 51JeBzKdGZh hPr6TYqsvWv-qyrm3VI ks -.json
+    board-jjdwhjwjedk3h2deh32uhdew.json
+    board -nGEjJ-V43 ILJJ44fm nXJXWgQDzEsGA6txi-t9z1 KHNY-.json
+
+
+> tests
+    integration.js
+.gitignore
+
+.prettierignore
+
+Authors
+
+CHECKS
+
+> package.json
+
+README.md
+
+
+
+
+            ----Detailed----
+
+
+
+> .vscode
+    setting.json = {
+  "editor.formatOnSave": false
+}
+
+> client data
+      >js
+      >tools
+      apple-touch-icon-precomposed.png
+      apple-touch-icon.png
+      background.png
+      board.css
+      board.html
+      crossdomain.xml
+      error.html
+      favicon. ico
+      favicon.svg
+      frontpage-illustrationsvg
+      github.svg
+      Icon-sue.svg
+      index.css
+      index.html
+      instagramsvg
+      label.svg
+      manifest.json
+
+> server
+    boardData.js
+    check_output_directory.js
+    client_configuration.js
+    configuration.js
+    createSVG.js
+    fs_promises.js
+    jwtauth.js
+    jwtBoardnarneAuth.js
+    server JS
+    sockets.js
+    templating.js
+    translations.json
+
+
+> server-data
+    .gitignore
+    board-ababababa.json
+    board -AMALAjson
+    board-CJ LpGyqON SGS 51JeBzKdGZh hPr6TYqsvWv-qyrm3VI ks -.json
+    board-jjdwhjwjedk3h2deh32uhdew.json
+    board -nGEjJ-V43 ILJJ44fm nXJXWgQDzEsGA6txi-t9z1 KHNY-.json
+
+
+> tests
+    integration.js
+.gitignore
+
+.prettierignore
+
+Authors
+
+CHECKS
+
+> package.json
+
+README.md

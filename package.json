@@ -1,0 +1,36 @@
+{
+  "name": "mini-project",
+  "description": "Online collaborative whiteboard",
+  "version": "1.21.2",
+  "keywords": [
+    "collaborative",
+    "whiteboard"
+  ],
+  "dependencies": {
+    "accept-language-parser": "^1.5.0",
+    "async-mutex": "^0.3.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "polyfill-library": "^3.107.1",
+    "serve-static": "^1.14.1",
+    "socket.io": "^4",
+    "statsd-client": "^0.4.7",
+    "vercel": "^28.18.5"
+  },
+  "scripts": {
+    "start": "node ./server/server.js",
+    "test": "nightwatch tests && nightwatch tests --env jwt",
+    "prettier": "prettier . --write",
+    "prettier-check": "prettier . --check"
+  },
+  "main": "./server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marshal-Alone/Mini-Project"
+  },
+  "devDependencies": {
+    "geckodriver": "^4.2.1",
+    "nightwatch": "^3.2.1",
+    "prettier": "^3.1.0"
+  }
+}
