@@ -1,1 +1,1 @@
-This is mini project from my collgege.
+This is mini project from my college.
